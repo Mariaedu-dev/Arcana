@@ -193,8 +193,7 @@ Multiplica por 10 (XP)
 ↓     
 XP >= 50?     
 ├── NÃO → Atualiza barra de XP     
-└── SIM →     
-level++     
+└── SIM → level++     
 xp -= 50     
 Atualizar avatar    
 
