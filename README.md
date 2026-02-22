@@ -50,7 +50,7 @@ Se negligenciar os estudos:
 ---
 
 ## 🏗 Estrutura do Projeto
-arcana-app/
+arcana-app/     
 │
 ├── index.html  
 ├── css/  
@@ -62,9 +62,6 @@ arcana-app/
 │ ├── ranking.js    
 │ └── storage.js    
 └── assets/   
-
----
-
 
 ---
 
@@ -151,88 +148,83 @@ Interface inspirada em dashboards minimalistas com temática mística:
 ---
 
 ### 📊 Fluxo Geral
-Usuário entra no app
+Usuário entra no app      
 ↓     
-Carregar dados do LocalStorage
+Carregar dados do LocalStorage     
 ↓     
-Existe jogador salvo?
+Existe jogador salvo?      
 ├── NÃO → Criar jogador padrão       
 └── SIM → Carregar dados      
 ↓     
-Renderizar Dashboard
+Renderizar Dashboard       
 ↓      
-Usuário escolhe ação:
+Usuário escolhe ação:       
 ├── Criar Missão      
 ├── Iniciar Estudo      
 ├── Ver Ranking      
 └── Ver Avatar     
 
-
 ---
 
 ### ⏱ Fluxo da Sessão de Estudo
-Clicar em "Iniciar Estudo"
-↓
-startTimer()
-↓
-Usuário pode:
-├── Pausar
-└── Finalizar
-↓
-Ao finalizar:
-→ Calcular horas
-→ Atualizar totalHours
-→ addXP()
-→ updateWeeklyProgress()
-→ Salvar no LocalStorage
-→ Atualizar ranking
-→ Re-renderizar Dashboard
-
+Clicar em "Iniciar Estudo"      
+↓      
+startTimer()      
+↓       
+Usuário pode:      
+├── Pausar      
+└── Finalizar      
+↓      
+Ao finalizar:        
+→ Calcular horas      
+→ Atualizar totalHours       
+→ addXP()      
+→ updateWeeklyProgress()       
+→ Salvar no LocalStorage       
+→ Atualizar ranking      
+→ Re-renderizar Dashboard      
 
 ---
 
 ### ⭐ Fluxo do Sistema de XP
-Recebe horas estudadas
-↓
-Multiplica por 10 (XP)
-↓
-XP >= 50?
-├── NÃO → Atualiza barra de XP
-└── SIM →
-level++
-xp -= 50
-Atualizar avatar
-
+Recebe horas estudadas       
+↓      
+Multiplica por 10 (XP)      
+↓     
+XP >= 50?     
+├── NÃO → Atualiza barra de XP     
+└── SIM →     
+level++     
+xp -= 50     
+Atualizar avatar    
 
 ---
 
 ### 🏆 Fluxo do Ranking
-Carregar lista fake de jogadores
-↓
-Inserir jogador atual
-↓
-Ordenar por totalHours
-↓
-Renderizar lista ordenada
-
+Carregar lista fake de jogadores      
+↓      
+Inserir jogador atual      
+↓      
+Ordenar por totalHours      
+↓      
+Renderizar lista ordenada       
 
 ---
 
 ### ⚠️ Fluxo de Perda de Progresso
-Abrir aplicativo
-↓
-Comparar data atual com lastLogin
-↓
+Abrir aplicativo      
+↓     
+Comparar data atual com lastLogin     
+↓      
 
-3 dias?
-├── SIM → Perde XP
-└── NÃO → Mantém
-↓
-7 dias?
-├── SIM → Zera progresso semanal
-└── NÃO → Mantém
+3 dias?     
+├── SIM → Perde XP      
+└── NÃO → Mantém     
+↓     
+7 dias?     
+├── SIM → Zera progresso semanal      
+└── NÃO → Mantém     
  
-
 ---
 
 ## 👩‍💻 Autoras
