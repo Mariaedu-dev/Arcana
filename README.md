@@ -52,16 +52,16 @@ Se negligenciar os estudos:
 ## 🏗 Estrutura do Projeto
 arcana-app/
 │
-├── index.html
-├── css/
-│ └── style.css
-├── js/
-│ ├── app.js
-│ ├── timer.js
-│ ├── xp.js
-│ ├── ranking.js
-│ └── storage.js
-└── assets/
+├── index.html  
+├── css/  
+│ └── style.css  
+├── js/   
+│ ├── app.js     
+│ ├── timer.js    
+│ ├── xp.js     
+│ ├── ranking.js    
+│ └── storage.js    
+└── assets/   
 
 ---
 
@@ -152,20 +152,20 @@ Interface inspirada em dashboards minimalistas com temática mística:
 
 ### 📊 Fluxo Geral
 Usuário entra no app
-↓
+↓     
 Carregar dados do LocalStorage
-↓
+↓     
 Existe jogador salvo?
-├── NÃO → Criar jogador padrão
-└── SIM → Carregar dados
-↓
+├── NÃO → Criar jogador padrão       
+└── SIM → Carregar dados      
+↓     
 Renderizar Dashboard
-↓
+↓      
 Usuário escolhe ação:
-├── Criar Missão
-├── Iniciar Estudo
-├── Ver Ranking
-└── Ver Avatar
+├── Criar Missão      
+├── Iniciar Estudo      
+├── Ver Ranking      
+└── Ver Avatar     
 
 
 ---
@@ -231,36 +231,14 @@ Comparar data atual com lastLogin
 7 dias?
 ├── SIM → Zera progresso semanal
 └── NÃO → Mantém
-
-
----
-
-## 🚀 Roadmap de Evolução
-
-### 🧙 v1.0.0
-Frontend puro + LocalStorage
-
-### 🧙 v2.0.0
-Migração para React  
-Componentização  
-Context API  
-
-### 🧙 v3.0.0
-Backend Node.js  
-Autenticação JWT  
-Banco de dados  
-
-### 🧙 v4.0.0
-Sistema multiplayer real  
-Upload de imagens  
-Deploy  
+ 
 
 ---
 
 ## 👩‍💻 Autoras
 
 - Maria Eduarda Pereira Vilarim  
-- [Nome da colaboradora]
+- Maria Cecília de Lima e Silva
 
 ---
 
