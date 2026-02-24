@@ -228,7 +228,7 @@ Comparar data atual com lastLogin
 
 ## 👩‍💻 Autoras
 
-- Maria Eduarda Pereira Vilarim  
+- Maria Eduarda Pereira Vilarim  **[https://github.com/Mariaedu-dev]**
 - Maria Cecília de Lima e Silva - **[https://github.com/C-26hub]**
 
 ---
